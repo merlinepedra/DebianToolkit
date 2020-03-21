@@ -1,7 +1,7 @@
 # DebianToolkit
 Debian custom for pentesting
 
-![](/screenshot/screenshot1.png)
+![](/screenshot/screenshot0.png)
 
 **Screenshot (Debian Default)**
 
