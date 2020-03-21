@@ -58,13 +58,13 @@ checkroot
 clear
 banner
 
-echo -e "  [$v$si$b] update Debian"
+echo -e "$a update Debian $nc"
 echo ""
 sleep 4
 echo ""
 apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y
 echo ""
-echo -e "$a Installing tools in Debian..$nc"
+echo -e "$a Installing tools in Debian $nc"
 echo ""
 sleep 4
 echo ""
@@ -335,7 +335,7 @@ cd wallpapers
 cp * /usr/share/images/desktop-base/
 cd ..
 echo ""
-echo -e "  [$v$si$b] Installation completed"
+echo -e "$a Installation completed $nc"
 sleep 5
 echo ""
 tput cnorm
