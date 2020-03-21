@@ -2,7 +2,7 @@
 
 **Debian custom for pentesting**
 
-![](/screenshot/screenshot0.png)
+![](/screenshot/screenshot6.png)
 
 **Screenshot (Debian Default)**
 
