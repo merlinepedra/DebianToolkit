@@ -60,14 +60,13 @@ banner
 
 echo -e "  [$v$si$b] update Debian"
 echo ""
+sleep 4
+echo ""
 apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y
 echo ""
 echo -e "$a Installing tools in Debian..$nc"
 echo ""
 sleep 4
-echo -e "  [$v$si$b] git"
-echo ""
-apt-get install -y git
 echo ""
 sleep 2
 echo -e "  [$v$si$b] xterm"
