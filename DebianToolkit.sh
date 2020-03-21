@@ -54,6 +54,7 @@ function banner (){
 
 clear
 checkroot
+clear
 banner
 
 echo ""
