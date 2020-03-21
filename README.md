@@ -4,13 +4,13 @@
 
 ![](/screenshot/screenshot0.png)
 
-Screenshot (Debian Default)
+**Screenshot (Debian Default)**
 
 ![](/screenshot/screenshot1.png)
 
 ![](/screenshot/screenshot2.png)
 
-Screenshot (DebianToolkit)
+**Screenshot (DebianToolkit)**
 
 ![](/screenshot/screenshot3.png)
 
