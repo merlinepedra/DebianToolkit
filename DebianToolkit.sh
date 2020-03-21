@@ -61,14 +61,12 @@ banner
 echo -e "$a update Debian $nc"
 echo ""
 sleep 4
-echo ""
 apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y
 echo ""
 echo -e "$a Installing tools in Debian $nc"
 echo ""
 sleep 4
 echo ""
-sleep 2
 echo -e "  [$v$si$b] xterm"
 echo ""
 sleep 2
