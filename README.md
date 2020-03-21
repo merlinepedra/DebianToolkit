@@ -13,11 +13,11 @@ root@debian:~# cd ~ (IMPORTANT no "git clone" in: Desktop,Downloads,Tools)
 
 root@debian:~# git clone https://github.com/d4t4s3c/DebianToolkit.git
 
-root@kali:~# cd DebianToolkit
+root@debian:~# cd DebianToolkit
 
-root@kali:~# chmod +x DebianToolkit.sh
+root@debian:~# chmod +x DebianToolkit.sh
 
-root@kali:~# ./DebianToolkit. sh
+root@debian:~# ./DebianToolkit. sh
 
 **Screenshot (Debian Default)**
 
