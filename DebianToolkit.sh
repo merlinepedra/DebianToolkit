@@ -328,6 +328,10 @@ mv .bashrc .bashrcBACKUP
 cd DebianToolkit
 cp .bashrc /root
 echo ""
+echo -e "  [$v$si$b] add wallpapers"
+cd wallpapers
+cp * /usr/share/images/desktop-base/
+echo ""
 echo -e "  [$v$si$b] reboot"
 sleep 5
 echo ""
