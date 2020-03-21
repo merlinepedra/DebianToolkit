@@ -52,6 +52,7 @@ function banner (){
         sleep 4
 }
 
+tput civis
 clear
 checkroot
 clear
@@ -330,4 +331,5 @@ echo ""
 echo -e "  [$v$si$b] reboot"
 sleep 5
 echo ""
+tput cnorm
 reboot
