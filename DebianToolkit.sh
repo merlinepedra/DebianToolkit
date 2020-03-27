@@ -67,6 +67,15 @@ echo -e "$a Installing tools in Debian $nc"
 echo ""
 sleep 4
 echo ""
+echo -e "  [$v$si$b] searchsploit"
+echo ""
+sleep 2
+apt-get install -y exploitdb
+apt-get install -y exploitdb-bin-sploits exploitdb-papers
+git clone https://github.com/offensive-security/exploitdb.git /opt/exploitdb
+sed 's|path_array+=(.*)|path_array+=("/opt/exploitdb")|g' /opt/exploitdb/.searchsploit_rc > ~/.searchsploit_rc
+sudo ln -sf /opt/exploitdb/searchsploit /usr/local/bin/searchsploit
+echo ""
 echo -e "  [$v$si$b] xterm"
 echo ""
 sleep 2
