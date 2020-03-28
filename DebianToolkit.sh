@@ -25,14 +25,14 @@ function checkroot(){
 	     sleep 4
 	     echo ""
     else
-       echo ""
+             echo ""
 	     echo -e " $b[$r$no$b] root $nc"
 	     sleep 4
 	     echo ""
 	     echo -e "$r EXITING $nc"
 	     sleep 4
 	     echo ""
-	    exit
+	     exit
     fi	
 }
 
