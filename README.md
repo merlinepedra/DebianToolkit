@@ -28,9 +28,9 @@ root@debian:~# ./DebianToolkit. sh
 
 **Screenshot (DebianToolkit)**
 
-![](/screenshot/screenshot3.png)
+![](/screenshot/screenshot03.png)
 
-![](/screenshot/screenshot4.png)
+![](/screenshot/screenshot04.png)
 
-![](/screenshot/screenshot5.png)
+![](/screenshot/screenshot05.png)
 
