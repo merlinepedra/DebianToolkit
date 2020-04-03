@@ -110,10 +110,12 @@ sleep 2
 wget https://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run
 chmod +x metasploit-latest-linux-x64-installer.run
 xterm -hold -e "./metasploit-latest-linux-x64-installer.run" &
+cd ..
 echo ""
 echo -e "  [$v$si$b] wordlist rockyou"
 echo ""
 sleep 2
+cd wordlist
 wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 cd ..
 echo ""                    
