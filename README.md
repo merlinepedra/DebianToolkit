@@ -2,9 +2,6 @@
 
 Debian custom for pentesting
 
-![](/screenshot/screenshot6.png)
-
-
 **Install:**
 ```
 root@debian:~# apt-get install -y git
