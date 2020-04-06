@@ -17,10 +17,9 @@
 # alias cp='cp -i'
 # alias mv='mv -i'
 
-# ls cat
+#aliasDebianToolkit
 alias ls=' lsd '
-#hash-id
 alias hash-id=' python3 /root/DebianToolkit/box/hash-identifier/hash-id.py '
 
-# prompt
+#prompt
 export PS1="\[\033[38;5;196m\][\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;46m\]\u\[$(tput sgr0)\]\[\033[38;5;11m\]:\[$(tput sgr0)\]\w\[$(tput sgr0)\]\[\033[38;5;196m\]]\[$(tput sgr0)\]\[\033[38;5;46m\]🡆\[$(tput sgr0)\] \[$(tput sgr0)\]"
