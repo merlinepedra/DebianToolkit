@@ -82,6 +82,21 @@ sleep 2
 apt install -y ruby
 apt install -y ruby-dev
 echo ""
+echo -e "  [$v$si$b] tcpdump"
+echo ""
+sleep 2
+apt-get install -y tcpdump
+echo ""
+echo -e "  [$v$si$b] hash-id"
+echo ""
+sleep 2
+cd box
+git clone https://github.com/blackploit/hash-identifier.git
+cd hash-identifier
+chmod +x hash-id.py
+cd ..
+cd ..
+echo ""
 echo -e "  [$v$si$b] searchsploit"
 echo ""
 sleep 2
