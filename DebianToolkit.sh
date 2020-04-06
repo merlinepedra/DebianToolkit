@@ -97,6 +97,11 @@ chmod +x hash-id.py
 cd ..
 cd ..
 echo ""
+echo -e "  [$v$si$b] rlwrap"
+echo ""
+sleep 2
+apt-get install -y rlwrap
+echo ""
 echo -e "  [$v$si$b] searchsploit"
 echo ""
 sleep 2
