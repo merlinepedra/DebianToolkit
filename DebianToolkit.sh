@@ -67,6 +67,15 @@ echo -e "$a Installing tools in Debian $nc"
 echo ""
 sleep 4
 echo ""
+echo -e "  [$v$si$b] python"
+echo ""
+sleep 2
+apt-get install -y python
+apt-get install -y python3
+apt-get install -y python-pip
+apt-get install -y python3-pip
+apt-get
+echo ""
 echo -e "  [$v$si$b] searchsploit"
 echo ""
 sleep 2
