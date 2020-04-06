@@ -354,11 +354,6 @@ echo ""
 sleep 2
 cd box
 dpkg -i lsd_0.14.0_amd64.deb
-echo ""
-echo -e "  [$v$si$b] bat"
-echo ""
-sleep 2
-dpkg -i bat_0.12.1_amd64.deb
 cd ..
 echo ""
 echo -e "  [$v$si$b] kismet"
