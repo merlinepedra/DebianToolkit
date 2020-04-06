@@ -76,6 +76,12 @@ apt-get install -y python-pip
 apt-get install -y python3-pip
 apt-get
 echo ""
+echo -e "  [$v$si$b] ruby"
+echo ""
+sleep 2
+apt install -y ruby
+apt install -y ruby-dev
+echo ""
 echo -e "  [$v$si$b] searchsploit"
 echo ""
 sleep 2
