@@ -402,10 +402,16 @@ echo ""
 sleep 2
 apt-get install -y simplescreenrecorder
 echo ""
+echo -e "  [$v$si$b] custom .p10k.zsh"
+echo ""
+sleep 2
+cd /root/DebianToolkit/
+cp .p10k.zsh /root
+cd ..
+echo ""
 echo -e "  [$v$si$b] custom .bashrc"
 echo ""
 sleep 2
-cd /root
 mv .bashrc .bashrcBACKUP
 cd DebianToolkit
 cp .bashrc /root
