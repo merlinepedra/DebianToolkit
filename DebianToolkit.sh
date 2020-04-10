@@ -97,6 +97,21 @@ chmod +x hash-id.py
 cd ..
 cd ..
 echo ""
+echo -e "  [$v$si$b] zsh"
+echo ""
+sleep 2
+apt-get install -y zsh
+echo ""
+echo -e "  [$v$si$b] zsh-autosuggestions"
+echo ""
+sleep 2
+apt-get install -y zsh-autosuggestions
+echo ""
+echo -e "  [$v$si$b] zsh-syntax-highlighting"
+echo ""
+sleep 2
+apt-get install -y zsh-syntax-highlighting
+echo ""
 echo -e "  [$v$si$b] powerlevel10k"
 echo ""
 sleep 2
