@@ -1586,12 +1586,8 @@ typeset -g POWERLEVEL9K_CONFIG_FILE=${${(%):-%x}:a}
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
-#alias_d4t4s3c
-alias update=' /root/update.sh '
-alias display=' nomacs '
+#alias_DebianToolkit
 alias ls=' lsd '
-alias htb='openvpn /root/d4t4s3c.ovpn &'
-alias ngrok=' /root/Descargas/./ngrok tcp 443 '
-alias hash-id=' python3 /root/hash-identifier/hash-id.py '
+alias hash-id=' python3 /root/DebianToolkit/box/hash-identifier/hash-id.py '
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
