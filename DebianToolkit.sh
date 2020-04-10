@@ -87,6 +87,15 @@ echo ""
 sleep 2
 apt-get install -y tcpdump
 echo ""
+echo -e "  [$v$si$b] nerd fonts"
+echo ""
+sleep 2
+cd /usr/local/share/fonts
+mv /root/DebianToolkit/box/Hack.zip .
+unzip Hack.zip
+rm -rf Hack.zip
+cd /root/DebianToolkit/
+echo ""
 echo -e "  [$v$si$b] hash-id"
 echo ""
 sleep 2
