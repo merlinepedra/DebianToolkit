@@ -97,6 +97,13 @@ chmod +x hash-id.py
 cd ..
 cd ..
 echo ""
+echo -e "  [$v$si$b] powerlevel10k"
+echo ""
+sleep 2
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
+usermod --shell /usr/bin/zsh root
+echo ""
 echo -e "  [$v$si$b] rlwrap"
 echo ""
 sleep 2
