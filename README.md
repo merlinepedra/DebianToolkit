@@ -22,7 +22,7 @@ Debian custom for pentesting
 ```
 root@debian:~# apt-get install -y git
 
-root@debian:~# cd ~ (IMPORTANT no "git clone" in: Desktop,Downloads,Tools)
+root@debian:~# cd ~
 
 root@debian:~# git clone https://github.com/d4t4s3c/DebianToolkit.git
 
