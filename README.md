@@ -2,20 +2,13 @@
 
 Debian custom for pentesting
 
-
-**Screenshot (Debian Default)**
-
-![](/screenshot/screenshot1.png)
-
-![](/screenshot/screenshot2.png)
-
 **Screenshot (DebianToolkit)**
 
-![](/screenshot/03.png)
+![](/screenshot/a.png)
 
-![](/screenshot/04.png)
+![](/screenshot/b.png)
 
-![](/screenshot/05.png)
+![](/screenshot/c.png)
 
 
 **Install:**
