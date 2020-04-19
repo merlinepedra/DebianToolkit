@@ -2,7 +2,7 @@
 
 Debian custom for pentesting
 
-**Screenshot (DebianToolkit)**
+**Screenshot**
 
 ![](/screenshot/a.png)
 
