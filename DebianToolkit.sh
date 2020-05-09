@@ -147,6 +147,11 @@ echo ""
 sleep 2
 apt install snapd
 echo ""
+echo -e "  [$v$si$b] whatweb"
+echo ""
+sleep 2
+apt-get install -y whatweb
+echo ""
 echo -e "  [$v$si$b] john the ripper"
 echo ""
 sleep 2
