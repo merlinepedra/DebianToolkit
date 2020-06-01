@@ -82,6 +82,11 @@ sleep 2
 apt install -y ruby
 apt install -y ruby-dev
 echo ""
+echo -e "  [$v$si$b] dnsutils"
+echo ""
+sleep 2
+apt-get install -y dnsutils
+echo ""
 echo -e "  [$v$si$b] tcpdump"
 echo ""
 sleep 2
