@@ -131,7 +131,6 @@ echo ""
 sleep 2
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
-usermod --shell /usr/bin/zsh root
 echo ""
 echo -e "  [$v$si$b] rlwrap"
 echo ""
@@ -411,20 +410,6 @@ echo -e "  [$v$si$b] simple screen recorder"
 echo ""
 sleep 2
 apt-get install -y simplescreenrecorder
-echo ""
-echo -e "  [$v$si$b] custom .p10k.zsh"
-echo ""
-sleep 2
-cd /root/DebianToolkit/
-cp .p10k.zsh /root
-cd ..
-echo ""
-echo -e "  [$v$si$b] custom .bashrc"
-echo ""
-sleep 2
-mv .bashrc .bashrcBACKUP
-cd DebianToolkit
-cp .bashrc /root
 echo ""
 echo -e "  [$v$si$b] add wallpapers"
 cd wallpapers
