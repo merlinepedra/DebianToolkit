@@ -35,7 +35,6 @@
     dir                     # current directory
     vcs                     # git status
     status
-    #command_execution_time
     context
 
   # prompt_char             # prompt symbol
@@ -1642,6 +1641,5 @@ HISTFILE=~/.zsh_history
 #alias_DebianToolkit
 alias ls=' lsd '
 alias hash-id=' python3 /root/DebianToolkit/box/hash-identifier/hash-id.py '
-alias htb='openvpn /root/d4t4s3c.ovpn &'
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
