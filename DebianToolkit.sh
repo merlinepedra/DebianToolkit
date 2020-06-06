@@ -82,6 +82,11 @@ sleep 2
 apt install -y ruby
 apt install -y ruby-dev
 echo ""
+echo -e "  [$v$si$b] Evil-WinRM"
+echo ""
+sleep 2
+gem install -y evil-winrm
+echo ""
 echo -e "  [$v$si$b] CrackMapExec"
 echo ""
 sleep 2
