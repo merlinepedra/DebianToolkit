@@ -86,9 +86,12 @@ echo -e "  [$v$si$b] CrackMapExec"
 echo ""
 sleep 2
 apt-get install -y libssl-dev libffi-dev python-dev build-essential
+cd /opt
 git clone --recursive https://github.com/byt3bl33d3r/CrackMapExec
 cd CrackMapExec
 python3 setup.py install
+sleep 1
+cd /root
 echo ""
 echo -e "  [$v$si$b] dnsutils"
 echo ""
