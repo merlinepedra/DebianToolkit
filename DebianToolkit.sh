@@ -82,6 +82,14 @@ sleep 2
 apt install -y ruby
 apt install -y ruby-dev
 echo ""
+echo -e "  [$v$si$b] CrackMapExec"
+echo ""
+sleep 2
+apt-get install -y libssl-dev libffi-dev python-dev build-essential
+git clone --recursive https://github.com/byt3bl33d3r/CrackMapExec
+cd CrackMapExec
+python3 setup.py install
+echo ""
 echo -e "  [$v$si$b] dnsutils"
 echo ""
 sleep 2
@@ -109,6 +117,7 @@ git clone https://github.com/blackploit/hash-identifier.git
 cd hash-identifier
 chmod +x hash-id.py
 cd ..
+sleep 1
 cd ..
 echo ""
 echo -e "  [$v$si$b] zsh"
