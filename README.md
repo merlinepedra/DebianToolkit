@@ -13,7 +13,7 @@ Debian custom for pentesting
 
 **Install:**
 ```
-root@debian:~# apt-get install -y git
+root@debian:~# apt-get install git -y
 
 root@debian:~# cd ~
 
@@ -23,5 +23,5 @@ root@debian:~# cd DebianToolkit
 
 root@debian:~# chmod +x DebianToolkit.sh
 
-root@debian:~# ./DebianToolkit. sh
+root@debian:~# ./DebianToolkit.sh
 ```
