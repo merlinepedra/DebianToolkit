@@ -205,12 +205,19 @@ chmod +x metasploit-latest-linux-x64-installer.run
 xterm -hold -e "./metasploit-latest-linux-x64-installer.run" &
 cd ..
 echo ""
-echo -e "  [$v$si$b] wordlist rockyou"
+echo -e "  [$v$si$b] wordlist"
 echo ""
 sleep 2
 cd wordlist
 wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 cd ..
+echo ""
+echo -e "  [$v$si$b] seclist"
+echo ""
+sleep 2
+git clone "https://github.com/danielmiessler/SecLists.git"
+echo ""
+sleep 2
 echo ""                    
 echo -e "  [$v$si$b] netcat"
 echo ""
