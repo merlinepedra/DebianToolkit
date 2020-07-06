@@ -14,9 +14,9 @@ Debian custom for pentesting
 
 * Install
 
-      ``` root@debian:~# apt-get install git -y ```
+   ``` root@debian:~# apt-get install git -y ```
 
-      ``` root@debian:~# cd ~ ```
+   ``` root@debian:~# cd ~ ```
 
       ``` root@debian:~# git clone https://github.com/d4t4s3c/DebianToolkit.git ```
 
