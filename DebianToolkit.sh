@@ -209,7 +209,7 @@ echo ""
 sleep 2
 cd /root/DebianToolkit/wordlist
 wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
-cd cd /root/DebianToolkit
+cd /root/DebianToolkit
 echo ""
 echo -e "  [$v$si$b] seclist"
 echo ""
