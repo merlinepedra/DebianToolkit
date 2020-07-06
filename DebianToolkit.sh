@@ -98,7 +98,7 @@ python3 setup.py install
 sleep 1
 cd /root
 echo ""
-echo -e "  [$v$si$b] dnsutils"
+echo -e "  [$v$si$b] dnsutils (dig, nslookup, nsupdate)"
 echo ""
 sleep 2
 apt-get install -y dnsutils
@@ -183,10 +183,13 @@ echo ""
 sleep 2
 apt-get install -y xterm
 echo ""
-echo -e "  [$v$si$b] aircrack-ng"
+echo -e "  [$v$si$b] go"
 echo ""
 sleep 2
-apt-get install -y aircrack-ng 
+apt-get install -y goland
+apt-get install -y libcap-dev
+apt-get install -y libpcap-dev
+
 echo ""
 echo -e "  [$v$si$b] guest additions (virtualbox)"
 echo ""
@@ -225,10 +228,10 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt-get update
 sudo apt-get install sublime-text
 echo ""
-echo -e "  [$v$si$b] terminator"
+echo -e "  [$v$si$b] tmux"
 echo ""
 sleep 2
-apt-get install -y terminator
+apt-get install -y tmux
 echo ""           
 echo -e "  [$v$si$b] nmap"
 echo ""
@@ -270,7 +273,7 @@ echo -e "  [$v$si$b] wine"
 echo ""
 sleep 2
 apt-get install -y wine
-dpkg --add-architecture i386 && apt-get install -y wine32
+dpkg --add-architecture i386
 apt-get install -y wine32
 echo ""                      
 echo -e "  [$v$si$b] angry ip scanner"
@@ -278,22 +281,12 @@ echo ""
 sleep 2
 cd box
 dpkg -i ipscan_3.6.2_amd64.deb
-cd ..
-echo ""              
-echo -e "  [$v$si$b] set"
-echo ""
-sleep 2
-apt-get install -y set
+cd ..             
 echo ""    
 echo -e "  [$v$si$b] apache2"
 echo ""
 sleep 2
 apt-get install -y apache2
-echo ""
-echo -e "  [$v$si$b] dirbuster"
-echo ""
-sleep 2
-apt-get install -y dirbuster
 echo ""
 echo -e "  [$v$si$b] wpscan"
 echo ""
@@ -311,20 +304,10 @@ echo ""
 sleep 2
 apt-get install -y cadaver
 echo ""
-echo -e "  [$v$si$b] recon-ng"
-echo ""
-sleep 2
-apt-get install -y recon-ng
-echo ""
 echo -e "  [$v$si$b] curl"
 echo ""
 sleep 2
 apt-get install -y curl
-echo ""
-echo -e "  [$v$si$b] dmitry"
-echo ""
-sleep 2
-apt-get install -y dmitry
 echo ""
 echo -e "  [$v$si$b] crunch"
 echo ""
@@ -341,11 +324,6 @@ echo ""
 sleep 2
 apt-get install -y sqlmap
 echo ""
-echo -e "  [$v$si$b] putty"
-echo ""
-sleep 2
-apt-get install -y putty
-echo ""
 echo -e "  [$v$si$b] wfuzz"
 echo ""
 sleep 2
@@ -360,20 +338,6 @@ echo -e "  [$v$si$b] dirb"
 echo ""
 sleep 2
 apt-get install -y dirb
-echo -e "  [$v$si$b] nikto"
-echo ""
-apt-get install nikto
-echo ""
-sleep 2
-echo -e "  [$v$si$b] patator"
-echo ""
-sleep 2
-apt-get install -y patator
-echo "" 
-echo -e "  [$v$si$b] medusa"
-echo ""
-sleep 2
-apt-get install -y medusa
 echo ""
 echo -e "  [$v$si$b] cewl"
 echo ""
@@ -389,11 +353,6 @@ echo -e "  [$v$si$b] nomacs"
 echo ""
 sleep 2
 apt-get install -y nomacs
-echo ""
-echo -e "  [$v$si$b] maltego"
-echo ""
-sleep 2
-apt-get install -y maltego
 echo ""
 sleep 2
 echo -e "  [$v$si$b] smbmap"
@@ -417,11 +376,6 @@ sleep 2
 cd box
 dpkg -i lsd_0.14.0_amd64.deb
 cd ..
-echo ""
-echo -e "  [$v$si$b] kismet"
-echo ""
-sleep 2
-apt-get install -y kismet
 echo ""
 echo -e "  [$v$si$b] simple screen recorder"
 echo ""
