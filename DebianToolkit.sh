@@ -380,11 +380,6 @@ echo ""
 sleep 2
 apt-get install -y simplescreenrecorder
 echo ""
-echo -e "  [$v$si$b] add wallpapers"
-cd wallpapers
-cp * /usr/share/images/desktop-base/
-cd ..
-echo ""
 echo -e "$a Installation completed $nc"
 sleep 5
 echo ""
