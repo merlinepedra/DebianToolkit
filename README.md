@@ -14,7 +14,7 @@ Debian custom for pentesting
 
 * Install
 
-       * ``` root@debian:~# apt-get install git -y ```
+``` root@debian:~# apt-get install git -y ```
 
 ``` root@debian:~# cd ~ ```
 
