@@ -120,13 +120,11 @@ echo ""
 echo -e "  [$v$si$b] hash-id"
 echo ""
 sleep 2
-cd box
-git clone https://github.com/blackploit/hash-identifier.git
+cd /opt
+git clone "https://github.com/blackploit/hash-identifier.git"
 cd hash-identifier
 chmod +x hash-id.py
-cd ..
-sleep 1
-cd ..
+cd /root
 echo ""
 echo -e "  [$v$si$b] zsh"
 echo ""
@@ -146,6 +144,7 @@ echo ""
 echo -e "  [$v$si$b] powerlevel10k"
 echo ""
 sleep 2
+cd /root
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 echo ""
@@ -193,7 +192,7 @@ echo -e "  [$v$si$b] guest additions (virtualbox)"
 echo ""
 sleep 2
 apt-get install -y build-essential dkms
-cd box
+/root/DebianToolkit/box
 chmod +x VBoxLinuxAdditions.run
 ./VBoxLinuxAdditions.run
 echo ""     
@@ -208,9 +207,9 @@ echo ""
 echo -e "  [$v$si$b] wordlist"
 echo ""
 sleep 2
-cd wordlist
+cd /root/DebianToolkit/wordlist
 wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
-cd ..
+cd cd /root/DebianToolkit
 echo ""
 echo -e "  [$v$si$b] seclist"
 echo ""
@@ -284,7 +283,7 @@ echo ""
 echo -e "  [$v$si$b] angry ip scanner"
 echo ""
 sleep 2
-cd box
+cd /root/DebianToolkit/box
 dpkg -i ipscan_3.6.2_amd64.deb
 cd ..             
 echo ""    
@@ -378,7 +377,7 @@ echo ""
 echo -e "  [$v$si$b] lsd"
 echo ""
 sleep 2
-cd box
+cd /root/DebianToolkit/box
 dpkg -i lsd_0.14.0_amd64.deb
 cd ..
 echo ""
