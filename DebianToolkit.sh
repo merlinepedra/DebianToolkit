@@ -163,11 +163,6 @@ git clone https://github.com/offensive-security/exploitdb.git /opt/exploitdb
 sed 's|path_array+=(.*)|path_array+=("/opt/exploitdb")|g' /opt/exploitdb/.searchsploit_rc > ~/.searchsploit_rc
 ln -sf /opt/exploitdb/searchsploit /usr/local/bin/searchsploit
 echo ""
-echo -e "  [$v$si$b] snapd"
-echo ""
-sleep 2
-apt install snapd
-echo ""
 echo -e "  [$v$si$b] whatweb"
 echo ""
 sleep 2
@@ -176,7 +171,10 @@ echo ""
 echo -e "  [$v$si$b] john the ripper"
 echo ""
 sleep 2
-snap install john-the-ripper
+cd /opt
+git clone "https://github.com/magnumripper/JohnTheRipper.git"
+cd JohnTheRipper/src
+./configure && make
 echo ""
 echo -e "  [$v$si$b] xterm"
 echo ""
