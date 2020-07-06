@@ -14,17 +14,17 @@ Debian custom for pentesting
 
 * Install
 
-       ``` root@debian:~# apt-get install git -y ```
+       * ``` root@debian:~# apt-get install git -y ```
 
-       ``` root@debian:~# cd ~ ```
+``` root@debian:~# cd ~ ```
 
-       ``` root@debian:~# git clone https://github.com/d4t4s3c/DebianToolkit.git ```
+``` root@debian:~# git clone https://github.com/d4t4s3c/DebianToolkit.git ```
 
-       ``` root@debian:~# cd DebianToolkit ```
+``` root@debian:~# cd DebianToolkit ```
 
-       ``` root@debian:~# chmod +x DebianToolkit.sh ```
+``` root@debian:~# chmod +x DebianToolkit.sh ```
 
-       ``` root@debian:~# ./DebianToolkit.sh ```
+``` root@debian:~# ./DebianToolkit.sh ```
 
 * Tools
 
