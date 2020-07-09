@@ -31,50 +31,50 @@ Debian custom for pentesting
   * Python
   * Ruby
   * Go
+  * Metasploit-Framework
   * Evil-WinRM
   * CrackMapExec
-  * Metasploit-Framework
+  * Enum4Linux
+  * SMBMap
+  * SMBClient
+  * Rlwrap
+  * SearchSploit
   * DNSutils (Dig, Nslookup, Nsupdate)
   * Tcpdump
-  * Nerd Fonts
+  * Hydra
+  * CeWL
+  * John The Ripper
   * Hash-Identifier
+  * Crunch
+  * WordList
+  * SecList
+  * Cadaver
+  * Curl
+  * Netcat
+  * Nmap
+  * Dirb
+  * Wfuzz
+  * Whatweb
+  * Angry IP Scanner
+  * Masscan
+  * Netdiscover
+  * Wireshark
+  * Ftp
+  * Putty
+  * WPScan (WordPress Security Scanner)
+  * SQLmap
+  * Wine
+  * Apache2
+  * Locate
+  * OpenVPN
+  * Nomacs
+  * Zenity
+  * Tmux
+  * Powerlevel 10k
   * Zsh
   * Zsh Autosuggestions
   * Zsh Syntax Highlighting
-  * Powerlevel 10k
-  * Rlwrap
-  * Angry IP Scanner
-  * SearchSploit
-  * Whatweb
-  * WordList
-  * SecList
-  * Netcat
   * Sublime Text
-  * Tmux
-  * Nmap
-  * Hydra
-  * John The Ripper
-  * Ftp
-  * Putty
-  * Zenity
-  * Netdiscover
-  * Wine
-  * Apache2
-  * WPScan (WordPress Security Scanner)
-  * Locate
-  * Cadaver
-  * Curl
-  * Crunch
-  * Masscan
-  * SQLmap
-  * Wfuzz
-  * Wireshark
-  * Dirb
-  * CeWL
-  * OpenVPN
-  * Nomacs
-  * SMBMap
-  * SMBClient
-  * Enum4Linux
   * LSD
+  * Nerd Fonts
   * Simple Screen Recorder
