@@ -96,7 +96,7 @@ git clone --recursive https://github.com/byt3bl33d3r/CrackMapExec
 cd CrackMapExec
 python3 setup.py install
 sleep 1
-cd /root
+cd /root/DebianToolkit/
 echo ""
 echo -e "  [$v$si$b] dnsutils (dig, nslookup, nsupdate)"
 echo ""
@@ -124,7 +124,7 @@ cd /opt
 git clone "https://github.com/blackploit/hash-identifier.git"
 cd hash-identifier
 chmod +x hash-id.py
-cd /root
+cd /root/DebianToolkit/
 echo ""
 echo -e "  [$v$si$b] zsh"
 echo ""
@@ -174,6 +174,7 @@ cd /opt
 git clone "https://github.com/magnumripper/JohnTheRipper.git"
 cd JohnTheRipper/src
 ./configure && make
+cd /root/DebianToolkit/
 echo ""
 echo -e "  [$v$si$b] xterm"
 echo ""
@@ -192,17 +193,20 @@ echo -e "  [$v$si$b] guest additions (virtualbox)"
 echo ""
 sleep 2
 apt-get install -y build-essential dkms
-/root/DebianToolkit/box
+cd /root/DebianToolkit/box
 chmod +x VBoxLinuxAdditions.run
 ./VBoxLinuxAdditions.run
+cd /root/DebianToolkit/
 echo ""     
 echo -e "  [$v$si$b] metasploit"
 echo ""
 sleep 2
+cd /opt
 wget https://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run
 chmod +x metasploit-latest-linux-x64-installer.run
 xterm -hold -e "./metasploit-latest-linux-x64-installer.run" &
-cd ..
+sleep 1
+cd /root/DebianToolkit/
 echo ""
 echo -e "  [$v$si$b] wordlist"
 echo ""
@@ -285,7 +289,7 @@ echo ""
 sleep 2
 cd /root/DebianToolkit/box
 dpkg -i ipscan_3.6.2_amd64.deb
-cd ..             
+cd /root/DebianToolkit            
 echo ""    
 echo -e "  [$v$si$b] apache2"
 echo ""
@@ -379,7 +383,7 @@ echo ""
 sleep 2
 cd /root/DebianToolkit/box
 dpkg -i lsd_0.14.0_amd64.deb
-cd ..
+cd /root/DebianToolkit
 echo ""
 echo -e "  [$v$si$b] simple screen recorder"
 echo ""
