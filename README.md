@@ -5,11 +5,11 @@ Debian custom for pentesting
 
 * Screenshot
 
-![](/screenshot/1.png)
+![](/screenshot/s1.png)
 
-![](/screenshot/2.png)
+![](/screenshot/s2.png)
 
-![](/screenshot/3.png)
+![](/screenshot/s3.png)
 
 
 * Install
