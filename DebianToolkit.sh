@@ -240,12 +240,7 @@ echo -e "  [$v$si$b] tmux"
 echo ""
 sleep 2
 apt-get install -y tmux
-cd /opt
-git clone https://github.com/samoshkin/tmux-config.git
-cd /tmux-config
-chmod +x install.sh
 sleep 1
-cd /root/DebianToolkit
 echo ""           
 echo -e "  [$v$si$b] nmap"
 echo ""
