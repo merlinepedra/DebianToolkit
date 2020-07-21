@@ -69,7 +69,7 @@ Debian custom for pentesting
   * OpenVPN
   * Nomacs
   * Zenity
-  * Tmux
+  * Terminator
   * Powerlevel 10k
   * Zsh
   * Zsh Autosuggestions
