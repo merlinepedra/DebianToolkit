@@ -226,10 +226,10 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt-get update
 sudo apt-get install sublime-text
 echo ""
-echo -e "  [$v$si$b] tmux"
+echo -e "  [$v$si$b] terminator"
 echo ""
 sleep 2
-apt-get install -y tmux
+apt-get install -y terminator
 sleep 1
 echo ""           
 echo -e "  [$v$si$b] nmap"
