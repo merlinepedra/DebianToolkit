@@ -82,6 +82,13 @@ sleep 2
 apt install -y ruby
 apt install -y ruby-dev
 echo ""
+echo -e "  [$v$si$b] go"
+echo ""
+sleep 2
+apt-get install -y goland
+apt-get install -y libcap-dev
+apt-get install -y libpcap-dev
+echo ""
 echo -e "  [$v$si$b] Evil-WinRM"
 echo ""
 sleep 2
@@ -180,23 +187,6 @@ echo -e "  [$v$si$b] xterm"
 echo ""
 sleep 2
 apt-get install -y xterm
-echo ""
-echo -e "  [$v$si$b] go"
-echo ""
-sleep 2
-apt-get install -y goland
-apt-get install -y libcap-dev
-apt-get install -y libpcap-dev
-
-echo ""
-echo -e "  [$v$si$b] guest additions (virtualbox)"
-echo ""
-sleep 2
-apt-get install -y build-essential dkms
-cd /root/DebianToolkit/box
-chmod +x VBoxLinuxAdditions.run
-./VBoxLinuxAdditions.run
-cd /root/DebianToolkit/
 echo ""     
 echo -e "  [$v$si$b] metasploit"
 echo ""
