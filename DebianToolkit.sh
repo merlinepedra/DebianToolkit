@@ -74,7 +74,6 @@ apt-get install -y python
 apt-get install -y python3
 apt-get install -y python-pip
 apt-get install -y python3-pip
-apt-get
 echo ""
 echo -e "  [$v$si$b] ruby"
 echo ""
@@ -226,10 +225,10 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt-get update
 sudo apt-get install sublime-text
 echo ""
-echo -e "  [$v$si$b] terminator"
+echo -e "  [$v$si$b] tmux"
 echo ""
 sleep 2
-apt-get install -y terminator
+apt-get install -y tmux
 sleep 1
 echo ""           
 echo -e "  [$v$si$b] nmap"
