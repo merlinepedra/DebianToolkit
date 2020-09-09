@@ -52,6 +52,7 @@ Debian custom for pentesting
   * Curl
   * Netcat
   * Nmap
+  * Furious
   * Dirb
   * Wfuzz
   * Whatweb
