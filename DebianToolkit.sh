@@ -84,7 +84,7 @@ echo ""
 echo -e "  [$v$si$b] go"
 echo ""
 sleep 2
-apt-get install -y goland
+apt-get install -y golang
 apt-get install -y libcap-dev
 apt-get install -y libpcap-dev
 echo ""
