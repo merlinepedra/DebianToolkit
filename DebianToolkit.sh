@@ -215,6 +215,11 @@ echo -e "  [$v$si$b] netcat"
 echo ""
 sleep 2
 apt-get install -y netcat
+echo ""
+echo -e "  [$v$si$b] furious"
+echo ""
+sleep 2
+go get -u github.com/liamg/furious
 echo ""             
 echo -e "  [$v$si$b] sublime text"
 echo ""
