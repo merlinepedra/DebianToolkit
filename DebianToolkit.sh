@@ -91,7 +91,7 @@ echo ""
 echo -e "  [$v$si$b] Evil-WinRM"
 echo ""
 sleep 2
-gem install -y evil-winrm
+gem install evil-winrm
 echo ""
 echo -e "  [$v$si$b] CrackMapExec"
 echo ""
