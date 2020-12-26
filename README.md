@@ -74,6 +74,7 @@ root@debian:~# ./DebianToolkit.sh
   * Zsh Autosuggestions
   * Zsh Syntax Highlighting
   * Sublime Text
+  * Xclip
   * LSD
   * Nerd Fonts
   * Simple Screen Recorder
