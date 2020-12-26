@@ -25,7 +25,8 @@ root@debian:~# ./DebianToolkit.sh
 
 * Tools
 
-  * Python
+  * Python2.7
+  * Python3
   * Ruby
   * Go
   * Metasploit-Framework
