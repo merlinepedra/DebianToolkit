@@ -2,16 +2,6 @@
 
 Debian custom for pentesting
 
-
-* Screenshot
-
-![](/screenshot/a.png)
-
-![](/screenshot/b.png)
-
-![](/screenshot/c.png)
-
-
 * Install
 
 ```bash
@@ -25,8 +15,10 @@ root@debian:~# ./DebianToolkit.sh
 
 * Tools
 
-  * Python2.7
+  * Python
   * Python3
+  * pip
+  * pip3
   * Ruby
   * Go
   * Metasploit-Framework
