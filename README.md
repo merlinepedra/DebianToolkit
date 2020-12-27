@@ -52,7 +52,7 @@ root@debian:~# ./DebianToolkit.sh
   * Wireshark
   * Ftp
   * Putty
-  * WPScan (WordPress Security Scanner)
+  * WPScan
   * SQLmap
   * Wine
   * Apache2
