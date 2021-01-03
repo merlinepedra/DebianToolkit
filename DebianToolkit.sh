@@ -982,7 +982,6 @@ function john(){
         echo ""
         cd /opt
         git clone "https://github.com/magnumripper/JohnTheRipper.git"
-        apt-get install zsh -y > /dev/null 2>&1
         cd JohnTheRipper/src
         ./configure && make
         cd $dir
