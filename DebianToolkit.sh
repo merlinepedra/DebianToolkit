@@ -600,7 +600,7 @@ function metasploit(){
         cd /opt
         wget -q "https://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run"
         chmod +x metasploit-latest-linux-x64-installer.run
-        xterm -hold -e "./metasploit-latest-linux-x64-installer.run" &
+        /usr/bin/xterm -hold -e "./metasploit-latest-linux-x64-installer.run" &
         sleep 10
         cd $var1
         echo -e "\t$GreenLight$var2$White metasploit installed $End"
