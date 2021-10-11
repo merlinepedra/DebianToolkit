@@ -2,71 +2,66 @@
 
 Debian custom for pentesting
 
-* Install
+- <kbd>Use</kbd>
 
 ```cmd
 root@debian:~# apt-get install git -y
 root@debian:~# cd ~
-root@debian:~# git clone https://github.com/d4t4s3c/DebianToolkit.git
+root@debian:~# git clone "https://github.com/d4t4s3c/DebianToolkit.git"
 root@debian:~# cd DebianToolkit
 root@debian:~# chmod +x DebianToolkit.sh
 root@debian:~# ./DebianToolkit.sh
 ```
 
-* Tools
+- <kbd>Tools</kbd>
 
   * Python
   * Python3
   * pip
   * pip3
   * Ruby
-  * Go
-  * Metasploit-Framework
+  * Xterm
   * Evil-WinRM
-  * CrackMapExec
-  * Enum4Linux
-  * SMBMap
-  * SMBClient
-  * Rlwrap
-  * SearchSploit
-  * DNSutils (Dig, Nslookup, Nsupdate)
+  * DNSutils
+    * Dig
+    * Nslookup
+    * Nsupdate 
   * Tcpdump
-  * Hydra
-  * CeWL
-  * John The Ripper
-  * Hash-Identifier
-  * Crunch
-  * WordList
-  * SecList
-  * Cadaver
-  * Curl
-  * Netcat
+  * Tmux
   * Nmap
-  * Furious
-  * Dirb
-  * Wfuzz
+  * Rlwrap
   * Whatweb
-  * Angry IP Scanner
-  * Masscan
-  * Netdiscover
-  * Wireshark
-  * Ftp
-  * Putty
-  * WPScan
-  * SQLmap
-  * Wine
+  * Hydra
+  * OpenVPN
   * Apache2
   * Locate
-  * OpenVPN
-  * Nomacs
-  * Zenity
-  * Tmux
-  * Powerlevel 10k
-  * Zsh
-  * Zsh Autosuggestions
-  * Zsh Syntax Highlighting
-  * Sublime Text
+  * Curl
+  * Ftp
+  * CeWL
+  * Cadaver
   * Xclip
+  * Metasploit
+    * Msfconsole 
+  * Crunch
+  * Putty
+  * SMBMap
+  * SMBClient
+  * Masscan
+  * SQLmap
+  * Wfuzz
+  * Net-Tools
+  * SearchSploit
+  * Zsh
+    * Zsh Autosuggestions
+    * Zsh Syntax Highlighting
+  * John The Ripper
+  * Netdiscover
+  * Arp-Scan
+  * Wireshark
+  * WordList
+  * SecLists
+  * Powerlevel 10k
   * LSD
   * Nerd Fonts
-  * Simple Screen Recorder
+
+---
