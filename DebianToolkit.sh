@@ -807,7 +807,7 @@ function searchsploit(){
         which searchsploit > /dev/null 2>&1
     if [ "$(echo $?)" == "0" ]; then
         echo ""
-        echo -e "\t$GreenLight$var2$White searchsploits installed $End"
+        echo -e "\t$GreenLight$var2$White searchsploit installed $End"
         sleep 2
         echo ""
     else
