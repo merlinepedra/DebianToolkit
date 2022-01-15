@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#colors
 declare -r White="\e[97m"
 declare -r Red="\e[31m"
 declare -r GreenLight="\e[92m"
@@ -8,7 +7,6 @@ declare -r YellowLight="\e[93m"
 declare -r CyanLight="\e[96m"
 declare -r End="\e[0m"
 
-#var
 var1=$(pwd)
 var2='[+]'
 var3='[*]'
@@ -145,7 +143,6 @@ function pip3(){
         echo ""
     fi
 }
-
 
 function ruby(){
         echo -e "$YellowLight$var4$White check ruby $End"
@@ -458,7 +455,6 @@ function locate(){
         echo ""
     fi
 }
-
 
 function curl(){
         echo -e "$YellowLight$var4$White check curl $End"
@@ -956,46 +952,46 @@ function wireshark(){
 }
 
 function start(){
-checkroot
-banner
-python
-python3
-pip
-pip3
-ruby
-xterm
-evil-winrm
-dnsutils
-tcpdump
-tmux
-nmap
-rlwrap
-whatweb
-hydra
-openvpn
-apache2
-locate
-curl
-ftp
-cewl
-cadaver
-xclip
-metasploit
-crunch
-putty
-smbclient
-smbmap
-masscan
-sqlmap
-wfuzz
-net-tools
-searchsploit
-zsh
-john
-netdiscover
-arp-scan
-wireshark
-exit 0
+        checkroot
+        banner
+        python
+        python3
+        pip
+        pip3
+        ruby
+        xterm
+        evil-winrm
+        dnsutils
+        tcpdump
+        tmux
+        nmap
+        rlwrap
+        whatweb
+        hydra
+        openvpn
+        apache2
+        locate
+        curl
+        ftp
+        cewl
+        cadaver
+        xclip
+        metasploit
+        crunch
+        putty
+        smbclient
+        smbmap
+        masscan
+        sqlmap
+        wfuzz
+        net-tools
+        searchsploit
+        zsh
+        john
+        netdiscover
+        arp-scan
+        wireshark
+        exit 0
 }
 
 start
