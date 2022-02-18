@@ -7,11 +7,11 @@ declare -r YellowLight="\e[93m"
 declare -r CyanLight="\e[96m"
 declare -r End="\e[0m"
 
-var1=$(pwd)
-var2='[+]'
-var3='[*]'
-var4='[i]'
-var5='[x]'
+declare -r var1=$(pwd)
+declare -r var2='[+]'
+declare -r var3='[*]'
+declare -r var4='[i]'
+declare -r var5='[x]'
 
 function checkroot(){
         clear
